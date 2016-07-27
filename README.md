@@ -4,3 +4,20 @@ The PokeFetcher will fetch Pokemon in your area to see which Pokemon are availab
 
 Please use maven install to compile. You can run the jar with two arguments to set the position (lat, lon). No parameter yet for save-file. 
 
+## How to run 
+
+### Prerequisition
+
+  JDK and Maven
+
+### Adjust filePath
+
+  PokeFile - Path in PokeFetcher/src/main/java/PokeFetcher.java
+
+### Compile
+
+  run 'maven install'
+
+### Run
+
+  in PokeFetcher/target run 'java -jar PokeFetcher-1.0-SNAPSHOT.jar <lat> <lon>'
